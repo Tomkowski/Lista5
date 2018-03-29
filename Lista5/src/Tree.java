@@ -33,10 +33,6 @@ public class Tree <K extends Comparable <K>> {
 	//##################################
 	//add new node
 	private void a(K val, Node root, Node parent) {
-		if(root == null) {
-			root = new Node(val,parent);
-		    return;
-		}
 		
 		if(root.val.compareTo(val) <  0)
 			if(root.right == null) root.right = new Node(val,root);

@@ -11,6 +11,7 @@ public class Fish {
 		t.add(8);
 		t.add(11);
 		t.add(9);
+		
 		//System.out.println(t.print());
 		System.out.println(t.getVal());
 		System.out.println(t.getVal());
